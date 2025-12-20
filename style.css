@@ -1,0 +1,11 @@
+body {
+    background: linear-gradient(to right, #0f3d2e, #1f7a5c, #4cc9a6);
+}
+.heading {
+    text-align: center;
+    color: whitesmoke;
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
