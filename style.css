@@ -1,5 +1,6 @@
 body {
     background: linear-gradient(to right, #0f3d2e, #1f7a5c, #4cc9a6);
+    text-align:center;
 }
 .heading {
     text-align: center;
@@ -8,4 +9,28 @@ body {
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
     letter-spacing: 2px;
+}
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 1.5vmin;
+    flex-wrap: wrap;
+}
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+}
+button:hover{
+    cursor: pointer;
 }
