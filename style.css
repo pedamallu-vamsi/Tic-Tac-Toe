@@ -30,7 +30,47 @@ body {
     width: 18vmin;
     border-radius: 1rem;
     border: none;
+    box-shadow: 0 0 1rem rgb(0,0,0,0.3);
+    font-size: 8vmin;
+    color: #b0413e;
+    background-color: lightyellow;
 }
 button:hover{
     cursor: pointer;
+}
+
+.reset-btn{
+    border-radius: 1rem;
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: black;
+    color: white;
+    border: 0;
+}
+
+.new-btn{
+    border-radius: 1rem;
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: black;
+    color: white;
+    border: 0;
+}
+
+.msg{
+    color:yellow;
+    font-size: 8vmin;
+}
+
+.msg-container{
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.hide{
+    display: none;
 }
